@@ -4,24 +4,26 @@ Convert from UML diagrams to migration file for Symfony or Laravel framework php
 
 ## Installation
 
-1 - Install [python3](https://www.python.org/downloads/).
+1 - Need install [python3](https://www.python.org/downloads/).
 
-2 - Use [draw.io](https://app.diagrams.net/) or app for desktop [drawio-desktop](https://github.com/jgraph/drawio-desktop/releases/tag/v14.4.3).
-
+2 - (facultative) plugin for VSC [Draw.io Integration](https://marketplace.visualstudio.com/items?itemName=hediet.vscode-drawio).
 
 ## Usage
 
-1 - Select all diagram in app and copy
+1 - Use [draw.io](https://app.diagrams.net/) or app for desktop [drawio-desktop](https://github.com/jgraph/drawio-desktop/releases/tag/v14.4.3).
 
-2 - Open file `PASTHERE.txt`
+2 - Select all diagram in app and copy
 
-3 - Past and save
+3 - Open file `PASTHERE.txt`
 
-4 - Run :
+4 - Past and save
+
+5 - Run :
 
 ```bash
 python3 migrate.py
 ```
+6 - Follow the instructions
 
 5 - Check out folder `/out` and enjoy :) 
 
