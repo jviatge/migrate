@@ -1,0 +1,32 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\SoftDeletes;
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Support\Str;
+
+class %s extends Model
+{
+    use HasFactory;
+    use SoftDeletes;
+
+    protected $fillable = [];
+    
+    public static function boot()
+    {
+        parent::boot();
+
+
+        // static::creating(function ($item) {
+        //    $item->uuid = (string) Str::uuid();
+        // });
+        
+    }   
+
+    //public function example()
+    //{
+    //    return $this->belongsToMany('App\Models\Cellarman', 'cellarmen_contacts', 'cellarman_contact_id', 'cellarman_id')->withPivot('is_com');
+    //}
+}
